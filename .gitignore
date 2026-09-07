@@ -1,3 +1,9 @@
 *.o
+<<<<<<< HEAD
 a.out
 *.dSYM/
+=======
+*.out
+braiiins
+*.replace
+>>>>>>> 47827669b6aa4cf6763902ef56e417fd454d1b3c

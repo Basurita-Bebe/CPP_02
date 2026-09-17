@@ -6,7 +6,7 @@
 /*   By: bruno <bruno@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 09:50:22 by bruno             #+#    #+#             */
-/*   Updated: 2026/09/08 10:15:22 by bruno            ###   ########.fr       */
+/*   Updated: 2026/09/09 11:38:57 by bruno            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ private:
 public:
     Fixed();                                    // Default Constructor
     Fixed(const Fixed &src);                    // Copy Constructor
-    Fixed &operator = (const Fixed &src);       // Copy Assignment
+    Fixed &operator=(const Fixed &src);         // Copy Assignment
     ~Fixed();                                   // Destructor
 
     int     getRawBits(void) const;

@@ -19,6 +19,7 @@ Fixed::Fixed() : _value(0) {
 }
 
 // Copy constructor: called when a NEW object is created from another one.
+// Uses the initializer list instead of operator=, so no "Copy assignment operator called".
 Fixed::Fixed(const Fixed &src) : _value(src._value) {
     std::cout << "Copy constructor called" << std::endl;
 }
@@ -31,6 +32,7 @@ Fixed &Fixed::operator = (const Fixed &src) {
 	return (*this);
 }
 
+// Destructor: nothing to free (no dynamic memory), only prints the trace.
 Fixed::~Fixed() {
     std::cout << "Destructor called" << std::endl;
 }
